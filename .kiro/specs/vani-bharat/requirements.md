@@ -50,7 +50,7 @@ The MVP focuses on a streamlined workflow: dialect-aware content generation, vis
 
 1. WHEN a user requests visual content, THE Visual_Generator SHALL generate a marketing image within 10 seconds
 2. WHEN generating images, THE Visual_Generator SHALL incorporate regional language text overlays based on the Localized_Content
-3. WHEN text overlays are added, THE Visual_Generator SHALL ensure text is readable and properly positioned
+3. WHEN text overlays are added, THE Visual_Generator SHALL ensure text overlays are readable and properly positioned where applicable
 4. THE Visual_Generator SHALL generate images that are contextually relevant to the content theme
 5. IF image generation fails, THEN THE Visual_Generator SHALL return a descriptive error message
 
@@ -62,7 +62,7 @@ The MVP focuses on a streamlined workflow: dialect-aware content generation, vis
 
 1. WHEN media is generated, THE Media_Optimizer SHALL compress images to reduce file size by at least 50%
 2. WHEN optimizing media, THE Media_Optimizer SHALL maintain visual quality suitable for mobile viewing
-3. THE Media_Optimizer SHALL generate Low_Bandwidth_Assets that load within 5 seconds on 2G networks
+3. THE Media_Optimizer SHALL generate Low_Bandwidth_Assets that load within 5 seconds on low-bandwidth networks
 4. WHEN compression is applied, THE Media_Optimizer SHALL preserve text readability in images
 5. IF optimization fails, THEN THE Media_Optimizer SHALL return the original media with a warning
 
